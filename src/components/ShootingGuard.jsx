@@ -6,15 +6,30 @@ class ShootingGuard extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      sgs: [ {id:1, name:'Danny Green', team: 'Toronto Raptors', gp: 70,    gpPred: predict([79, 68, 70]),
-                                                                ppg: 8.6, ppgPred: predict([7.2, 7.3, 8.6]),
+      sgs: [ {id:1, name:'Danny Green', team: 'Los Angeles Lakers', gp: 80,    gpPred: predict([79, 68, 70]),
+                                                                ppg: 10.3, ppgPred: predict([7.2, 7.3, 8.6]),
                                                                 apg: 1.6,    apgPred: predict([1.8, 1.8, 1.6]),
-                                                                rbg: 3.6,    rbgPred: predict([3.8, 3.3, 3.6])},
+                                                                rbg: 4.0,    rbgPred: predict([3.8, 3.3, 3.6])},
 
-             {id:2, name:'Demar Derozan', team: 'San Antonio Spurs', gp: 80,    gpPred: predict([78, 74, 80]),
-                                                                       ppg: 23.0, ppgPred: predict([23.5, 27.3, 23.0]),
-                                                                       apg: 5.2,    apgPred: predict([4.0, 3.9, 5.2]),
-                                                                       rbg: 3.9,    rbgPred: predict([4.5, 5.2, 3.9])}
+             {id:2, name:'Demar Derozan', team: 'San Antonio Spurs', gp: 77,    gpPred: predict([78, 74, 80]),
+                                                                       ppg: 21.2, ppgPred: predict([23.5, 27.3, 23.0]),
+                                                                       apg: 6.2,    apgPred: predict([4.0, 3.9, 5.2]),
+                                                                       rbg: 6.0,    rbgPred: predict([4.5, 5.2, 3.9])},
+
+             {id: 3, name: 'Klay Thompson', team: 'Golden State Warriors', gp:78, gpPred: predict([80, 78, 73]),
+                                                                           ppg:21.5, ppgPred: predict([22.1, 22.3, 20.0]),
+                                                                           apg: 2.4,    apgPred: predict([2.1, 2.1, 2.5]),
+                                                                           rbg: 3.8,    rbgPred: predict([3.8, 3.7, 3.8])},
+
+            {id: 4, name: 'James Harden', team: "Houston Rockets", gp:78, gpPred: predict([82, 81, 72]),
+                                                                   ppg:36.1, ppgPred: predict([29.0, 29.1, 30.4]),
+                                                                   apg: 7.5,    apgPred: predict([7.5, 11.2, 8.8]),
+                                                                   rbg: 6.6,    rbgPred: predict([6.1, 8.1, 5.4])},
+
+           {id: 5, name: 'Jimmy Butler', team: 'Miami Heat',  gp:65, gpPred: predict([67, 76, 59]),
+                                                              ppg:18.7, ppgPred: predict([20.9, 23.9, 22.2]),
+                                                              apg: 4.0,    apgPred: predict([5.5, 4.9, 4.3]),
+                                                              rbg: 5.3,    rbgPred: predict([6.2, 5.3, 5.2])}
            ]
     };
   }
