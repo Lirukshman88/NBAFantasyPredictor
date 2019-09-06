@@ -21,7 +21,7 @@ class SmallForward extends Component {
                                                                  apg: 5.9,    apgPred: predict([5.0, 4.8, 5.4]),
                                                                  rbg: 6.4,    rbgPred: predict([8.2, 8.3, 6.8])},
 
-            {id: 4, name: 'Giannis Antetokounmp', team: 'Milwaukee Bucks', gp: 72,  gpPred: predict([80, 80, 75]),
+            {id: 4, name: 'Giannis Antetokounmpo', team: 'Milwaukee Bucks', gp: 72,  gpPred: predict([80, 80, 75]),
                                                                            ppg: 27.7, ppgPred: predict([16.9, 22.9, 26.9]),
                                                                            apg: 5.9,    apgPred: predict([4.3, 5.4, 4.8]),
                                                                            rbg: 12.5,    rbgPred: predict([7.7, 8.8, 10.0])},
