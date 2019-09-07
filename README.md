@@ -1,8 +1,8 @@
 # NBA Fantasy Predictor
 
-This project is intended to help you pick out the players you need for your NBA Fantasy Team. The Web App predicts the Games Played, Points per game, Assists per game and Rebounds per game for each position by using TensorFlow's library functions to perform a linear regression model on the past 3 seasons.
+This project is intended to help you pick out the players you need for your NBA Fantasy Team. The Web App predicts the Games Played, Points per game, Assists per game and Rebounds per game for each position by using TensorFlow's library functions to perform a linear regression model on the past 3 seasons of each player.
 
-Below is the results after one trial run with 25 NBA players for each Statistical Category.
+Below is the results after a random run with 25 NBA players for each statistical category.
 
 ### Games Played
 |Position   |Name        | Games Played (Predicted - Actual) |
@@ -33,7 +33,7 @@ Below is the results after one trial run with 25 NBA players for each Statistica
 | PF       | LaMarcus Aldridge| -5.6                       |
 | PF       | Kevin Love | +25.7                       |
 
-### Points
+### Points per game
 |Position   |Name        | Points (Predicted - Actual)|
 | --------- | ---------- | -------------------------- |
 | PG        | Kyle Lowry | +3.6                       |
@@ -62,7 +62,7 @@ Below is the results after one trial run with 25 NBA players for each Statistica
 | PF       | LaMarcus Aldridge| +1.0                       |
 | PF       | Kevin Love | +1.6                       |
 
-### Assists
+### Assists per game
 |Position   |Name        | Assists (Predicted - Actual)|
 | --------- | ---------- | -------------------------- |
 | PG        | Kyle Lowry | -1.6                       |
@@ -92,7 +92,7 @@ Below is the results after one trial run with 25 NBA players for each Statistica
 | PF       | Kevin Love | -0.5                       |
 
 
-###  Rebounds
+###  Rebounds per game
 |Position   |Name        | Rebounds (Predicted - Actual)|
 | --------- | ---------- | -------------------------- |
 | PG        | Kyle Lowry | +0.8                       |
@@ -120,3 +120,17 @@ Below is the results after one trial run with 25 NBA players for each Statistica
 | PF       | Blake Griffin | +0.1                      |
 | PF       | LaMarcus Aldridge| -1.0                       |
 | PF       | Kevin Love | -0.9                       |
+
+## Statistical Analysis
+* **Games played:**
+  * Average: 9.34
+  * Standard Deviation: 8.88
+* **Points per game:**
+  * Average: 2.86
+  * Standard Deviation: 2.31
+* **Assists per game:**
+  * Average: 0.74
+  * Standard Deviation: 0.58
+* **Rebounds per game:**
+  * Average: 0.92
+  * Standard Deviation: 0.86
