@@ -134,3 +134,5 @@ Below is the results after a random run with 25 NBA players for each statistical
 * **Rebounds per game:**
   * Average: 0.92
   * Standard Deviation: 0.86
+
+**Note:** This is the absolute difference between Predicted and Actual
