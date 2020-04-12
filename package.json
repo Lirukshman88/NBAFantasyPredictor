@@ -1,9 +1,10 @@
 {
-  "name": "my-app",
+  "name": "nbafantasypredictor",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@tensorflow/tfjs": "^0.14.2",
+    "minimist": "^1.2.5",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router": "^4.3.1",
