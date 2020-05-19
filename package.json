@@ -3,9 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@tensorflow/tfjs": "^0.14.2",
+    "@tensorflow/tfjs-node": "^1.7.4",
+    "bootstrap": "^4.5.0",
+    "express": "^4.17.1",
     "minimist": "^1.2.5",
+    "nedb": "^1.8.0",
     "react": "^16.13.1",
+    "react-bootstrap": "^1.0.1",
     "react-dom": "^16.13.1",
     "react-router": "^4.3.1",
     "react-router-dom": "^4.3.1",
@@ -17,6 +21,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "proxy": "http://localhost:5000/",
   "eslintConfig": {
     "extends": "react-app"
   },

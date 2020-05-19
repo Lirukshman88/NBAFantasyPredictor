@@ -1,20 +1,18 @@
 .diver {
     color: white;
-    font-size: 25px;
+    font-size: 23px;
+    margin-top: 25px;
+    position: relative;
+}
 
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+input, select, textarea {
+    color: #000000;
 }
 
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
-  border-radius: 5px; /* 5px rounded corners */
-  width: 23rem;
-  height: 23rem;
-  background-color: #bbdefb ;
+  background-color: #bbdefb;
+  width: 15rem;
+  height : 15rem;
 }
 
 .container {
@@ -40,6 +38,16 @@
 }
 
 ul#menu li {
+  margin-top: 20px;
+  margin-right: 40px;
+  float: left;
+}
+
+.listHomeScreen {
+  position: absolute;
+}
+
+ul#homemenu li {
   margin-top: 20px;
   margin-right: 40px;
   float: left;
